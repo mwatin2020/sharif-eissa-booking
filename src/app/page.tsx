@@ -216,11 +216,28 @@ export default function Home() {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-gold/5 rounded-full filter blur-[100px] -z-10" />
 
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
+          {/* Hero Logo */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.6 }}
+            className="mb-6"
+          >
+            <Image 
+              src="/logo.jpg" 
+              alt="شريف عيسى - Sharif Eissa" 
+              width={220} 
+              height={70} 
+              className="object-contain max-h-24 w-auto drop-shadow-[0_0_15px_rgba(197,160,89,0.15)]"
+              priority
+            />
+          </motion.div>
+
           {/* Badge */}
           <motion.div 
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
             className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold/10 border border-gold/20 mb-8"
           >
             <Sparkles size={14} className="text-gold animate-pulse" />
