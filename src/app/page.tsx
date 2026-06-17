@@ -226,9 +226,9 @@ export default function Home() {
             <Image 
               src="/logo.jpg" 
               alt="شريف عيسى - Sharif Eissa" 
-              width={220} 
-              height={70} 
-              className="object-contain max-h-24 w-auto drop-shadow-[0_0_15px_rgba(197,160,89,0.15)]"
+              width={480} 
+              height={150} 
+              className="object-contain w-64 sm:w-80 md:w-[420px] h-auto drop-shadow-[0_0_20px_rgba(197,160,89,0.2)]"
               priority
             />
           </motion.div>
