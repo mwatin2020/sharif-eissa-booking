@@ -14,7 +14,8 @@ export const metadata: Metadata = {
   keywords: "شريف عيسى, حجز فنادق القاهرة, فنادق 5 نجوم القاهرة, سانت ريجيس القاهرة, فيرمونت نايل سيتي, ماريوت الزمالك, سوفيتيل الجزيرة",
   authors: [{ name: "Sharif Eissa" }],
   icons: {
-    icon: "/favicon.ico",
+    icon: "/logo.jpg",
+    apple: "/logo.jpg",
   },
 };
 

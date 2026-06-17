@@ -118,13 +118,14 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <div className="w-11 h-11 rounded-full border border-gold/40 flex items-center justify-center bg-card-bg/60 gold-border-glow">
-              <span className="font-serif text-xl font-bold text-gold tracking-wider">SE</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-lg tracking-tight text-white">شريف عيسى</span>
-              <span className="text-[10px] text-gold tracking-widest uppercase">Luxury Travel Curator</span>
-            </div>
+            <Image 
+              src="/logo.jpg" 
+              alt="شريف عيسى - Sharif Eissa" 
+              width={160} 
+              height={50} 
+              className="object-contain max-h-12 w-auto"
+              priority
+            />
           </div>
 
           {/* Desktop Nav */}
@@ -526,15 +527,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-right">
           {/* Column 1 - Brand */}
           <div className="flex flex-col items-center md:items-start gap-4">
-            <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-full border border-gold flex items-center justify-center bg-card-bg text-gold font-serif text-2xl font-bold">
-                SE
-              </div>
-              <div className="flex flex-col text-right">
-                <span className="font-bold text-xl text-white">شريف عيسى</span>
-                <span className="text-xs text-gold uppercase tracking-widest">حجوزات فنادق فاخرة</span>
-              </div>
-            </div>
+            <Image 
+              src="/logo.jpg" 
+              alt="شريف عيسى - Sharif Eissa" 
+              width={180} 
+              height={56} 
+              className="object-contain max-h-16 w-auto"
+            />
             <p className="text-sm text-gray-400 max-w-sm mt-2 leading-relaxed text-center md:text-right">
               حجوزات مباشرة ومعتمدة لدى أفضل فنادق الخمس نجوم في القاهرة. تواصل مباشر بدون وسطاء وبأقل الأسعار.
             </p>
