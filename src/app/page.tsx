@@ -119,11 +119,11 @@ export default function Home() {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <Image 
-              src="/logo.jpg" 
+              src="/header-logo.png" 
               alt="شريف عيسى - Sharif Eissa" 
-              width={160} 
-              height={50} 
-              className="object-contain max-h-12 w-auto"
+              width={180} 
+              height={55} 
+              className="object-contain max-h-14 w-auto"
               priority
             />
           </div>
