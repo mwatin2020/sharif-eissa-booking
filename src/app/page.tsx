@@ -121,9 +121,9 @@ export default function Home() {
             <Image 
               src="/header-logo-square.png" 
               alt="شريف عيسى - Sharif Eissa" 
-              width={50} 
-              height={50} 
-              className="object-contain max-h-12 w-auto"
+              width={80} 
+              height={80} 
+              className="object-contain max-h-[72px] w-auto"
               priority
             />
           </div>
